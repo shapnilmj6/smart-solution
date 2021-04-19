@@ -1,0 +1,16 @@
+.header{
+    background-image: url(../../../images/img.jfif);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.header-title{
+    text-align: center;
+}
+.header h3{
+    color: pink;
+    font-weight: 700;
+}
+.header h1{
+    color: seashell;
+}
