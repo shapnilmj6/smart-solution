@@ -1,11 +1,11 @@
 import React from 'react';
 import HeaderMain from '../HeaderMain/HeaderMain';
-import Navbar from '../../Shared/Navbar/Navbar';
+import NavBar from '../../Shared/NavBar/NavBar';
 
 const Header = () => {
     return (
         <div>
-        <Navbar></Navbar>
+        <NavBar></NavBar>
         <HeaderMain></HeaderMain>
         </div>
     );

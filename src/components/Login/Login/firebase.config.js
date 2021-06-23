@@ -1,10 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAsihSADFnF_FoZ6je8p1W9lilyqX7cHWQ",
-    authDomain: "burj-al-arab.firebaseapp.com",
-    databaseURL: "https://burj-al-arab.firebaseio.com",
-    projectId: "burj-al-arab",
-    storageBucket: "burj-al-arab.appspot.com",
-    messagingSenderId: "244522202387",
-    appId: "1:244522202387:web:f3801d0588387140e1d6e6"
-  };
-  export default firebaseConfig;
+  apiKey: "AIzaSyB-w0lQaYxWnk-YLlUtQ7LFfjSsEehekYM",
+  authDomain: "smart-solution-2a4cb.firebaseapp.com",
+  projectId: "smart-solution-2a4cb",
+  storageBucket: "smart-solution-2a4cb.appspot.com",
+  messagingSenderId: "581778105485",
+  appId: "1:581778105485:web:25202ae6c5aa3360b0eec4"
+};
+export default firebaseConfig;
