@@ -10,7 +10,7 @@ const Testimonials = () => {
     const [testimonialData, setTestimonialData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://smart-solution-server.herokuapp.com/reviews')
             .then(res => res.json())
             .then(data => setTestimonialData(data))
     }, [])

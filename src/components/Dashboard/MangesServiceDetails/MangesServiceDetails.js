@@ -5,7 +5,7 @@ const MangesServiceDetails = ({ service }) => {
 
     const handleDelete = (event, id) => {
         const loading = toast.loading('Please wait...!');
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://smart-solution-server.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

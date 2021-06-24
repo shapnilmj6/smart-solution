@@ -58,7 +58,7 @@ const SimpleCardForm = ({order}) => {
             "status": "pending",
             "paymentId": paymentMethod.id
         }
-        axios.post("http://localhost:5000/addOrder", orderInfo)
+        axios.post("https://smart-solution-server.herokuapp.com/addOrder", orderInfo)
             .then(res => {
                 toast.dismiss(loading);
                 if (res.data) {

@@ -7,7 +7,7 @@ const OrderList = () => {
     const [show, setShow] = useState(false)
    
     useEffect(() => {
-        fetch("http://localhost:5000/orders")
+        fetch("https://smart-solution-server.herokuapp.com/orders")
             .then(res => res.json())
             .then(data => setOrderList(data))
             console.log("working");
@@ -27,7 +27,7 @@ const OrderList = () => {
             id: productKey,
             status: status
         };
-        fetch(`http://localhost:5000/update/${productKey}`, {
+        fetch(`https://smart-solution-server.herokuapp.com/update/${productKey}`, {
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(statusUpdatingInfo)

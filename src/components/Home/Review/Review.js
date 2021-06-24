@@ -16,7 +16,7 @@ const Review = () => {
     const submitOpinion = (e) => {
         e.preventDefault();
         const loading = toast.loading('Please wait...!');
-        fetch('http://localhost:5000/addReviews', {
+        fetch('https://smart-solution-server.herokuapp.com/addReviews', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/Json'
